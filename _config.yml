@@ -1,1 +1,52 @@
-theme: jekyll-theme-minimal
+title: 独醉庐
+email: zcj507621@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/sea-blog" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: lonelydrunk
+author-pic: art.jpg
+
+about-author: 我是一位程序员。希望得到你的帮助！
+
+# Contact links
+email: zcj507621@gmail.com# Add your Email address
+phone: 8615750801507# Add your Phone number
+website: lonelydrunk.github.io/sea-blog# Add your website, do not add http://
+linkedin: # Add your Linkedin handle
+github: lonelydrunk # Add your Github handle
+twitter: '9uEDHX5d6xA6G3L' # Add your Twitter handle
+facebook: # Add your Facebook handle
+instagram: # Add your Instagram handle
+pinterest: # Add your Pinterest handle
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 4
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+
+theme: jekyll-theme-time-machine
