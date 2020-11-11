@@ -2,8 +2,8 @@ title: 新闻小报
 email: studying@duzui.onmicrosoft.com
 description: > 
 permalink: ':title/'
-baseurl: "/newspaper"
-url: "https://lonelydrunk.github.io/newspaper/" 
+baseurl: "/sea-blog"
+url: "https://lonelydrunk.github.io/sea-blog/" 
 
 # Author settings
 author: 语文小报
@@ -13,7 +13,7 @@ about-author: 语文新闻小报制作。
 # Contact links
 email: studying@duzui.onmicrosoft.com
 phone: +86 15750801507
-website: https://lonelydrunk.github.io/newspaper/
+website: https://lonelydrunk.github.io/sea-blog/
 linkedin: #
 github: lonelydrunk
 twitter: 9uEDHX5d6xA6G3L#
